@@ -1,0 +1,432 @@
+/* =========================================================
+   HDMS
+   HISTORICAL DATA MANAGEMENT SYSTEM
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+* {
+    font-family: "Segoe UI";
+}
+
+QWidget {
+    background-color: #0b1120;
+    color: #e5e7eb;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+#sidebar {
+    background-color: #0f172a;
+    border-right: 1px solid #1e293b;
+}
+
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+#content {
+    background-color: #0b1120;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+#logo_icon {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo_title {
+    color: #f8fafc;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#logo_subtitle {
+    color: #64748b;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+#section_label {
+    color: #64748b;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#nav_button,
+#nav_button_active {
+    border: none;
+    border-radius: 9px;
+    text-align: left;
+    padding-left: 14px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#nav_button {
+    background-color: transparent;
+    color: #94a3b8;
+}
+
+#nav_button:hover {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+#nav_button_active {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+
+/* =========================================================
+   SYSTEM STATUS
+   ========================================================= */
+
+#system_frame {
+    background-color: #111c31;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+}
+
+#system_title {
+    color: #64748b;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#online_dot {
+    color: #22c55e;
+    font-size: 12px;
+}
+
+#system_status {
+    color: #cbd5e1;
+    font-size: 11px;
+}
+
+#version_label {
+    color: #64748b;
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+#page_title {
+    color: #f8fafc;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#page_subtitle {
+    color: #64748b;
+    font-size: 13px;
+}
+
+#user_avatar {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 21px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#user_name {
+    color: #cbd5e1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   WELCOME CARD
+   ========================================================= */
+
+#welcome_card {
+    background-color: #111c31;
+    border: 1px solid #1e3a8a;
+    border-radius: 16px;
+}
+
+#welcome_label {
+    color: #60a5fa;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#welcome_title {
+    color: #f8fafc;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#welcome_description {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+#welcome_icon {
+    background-color: #172554;
+    color: #60a5fa;
+    border: 1px solid #1d4ed8;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+
+/* =========================================================
+   STAT CARDS
+   ========================================================= */
+
+#stat_card {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 13px;
+}
+
+#stat_card:hover {
+    border: 1px solid #334155;
+}
+
+#stat_title {
+    color: #64748b;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#stat_value {
+    color: #f8fafc;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#stat_subtitle {
+    color: #64748b;
+    font-size: 10px;
+}
+
+#stat_icon {
+    background-color: #172554;
+    color: #60a5fa;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/* =========================================================
+   IMPORT SECTION
+   ========================================================= */
+
+#section_title {
+    color: #f8fafc;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#section_subtitle {
+    color: #64748b;
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+QPushButton {
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* Primary */
+
+#primary_button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+#primary_button:hover {
+    background-color: #3b82f6;
+}
+
+#primary_button:pressed {
+    background-color: #1d4ed8;
+}
+
+
+/* Success */
+
+#success_button {
+    background-color: #059669;
+    color: white;
+    border: none;
+}
+
+#success_button:hover {
+    background-color: #10b981;
+}
+
+#success_button:pressed {
+    background-color: #047857;
+}
+
+
+/* Secondary */
+
+#secondary_button {
+    background-color: #1e293b;
+    color: #94a3b8;
+    border: 1px solid #334155;
+}
+
+#secondary_button:hover {
+    background-color: #334155;
+    color: white;
+}
+
+
+/* Disabled */
+
+#primary_button:disabled,
+#success_button:disabled {
+    background-color: #1e293b;
+    color: #64748b;
+}
+
+
+/* =========================================================
+   PROGRESS
+   ========================================================= */
+
+#progress_frame {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+}
+
+#status_label {
+    color: #cbd5e1;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#progress_percentage {
+    color: #60a5fa;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QProgressBar {
+    background-color: #1e293b;
+    border: none;
+    border-radius: 4px;
+}
+
+QProgressBar::chunk {
+    background-color: #2563eb;
+    border-radius: 4px;
+}
+
+
+/* =========================================================
+   TABLE CONTAINER
+   ========================================================= */
+
+#table_frame {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+#table_title {
+    color: #f8fafc;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#file_count_label {
+    color: #64748b;
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+QTableWidget {
+    background-color: #111827;
+    border: none;
+    color: #cbd5e1;
+    font-size: 12px;
+    selection-background-color: #172554;
+    selection-color: #f8fafc;
+}
+
+QHeaderView::section {
+    background-color: #111827;
+    color: #64748b;
+    border: none;
+    border-bottom: 1px solid #1f2937;
+    padding: 12px 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+QTableWidget::item {
+    border-bottom: 1px solid #1f2937;
+    padding: 10px;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+QScrollBar:vertical {
+    background: #0f172a;
+    width: 8px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #334155;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #475569;
+}
